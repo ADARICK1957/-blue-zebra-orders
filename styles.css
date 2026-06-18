@@ -13,7 +13,7 @@ html { scroll-behavior: smooth; }
 body { margin: 0; font-family: Arial, Helvetica, sans-serif; color: var(--ink); background: var(--bg); line-height: 1.55; }
 img { max-width: 100%; }
 a { color: var(--blue); }
-.hero { color: white; background: linear-gradient(90deg, rgba(5, 34, 69, .93), rgba(7, 95, 189, .80)), url("assets/football-hero.jpeg") center / cover; padding: 22px; }
+.hero { color: white; background: linear-gradient(90deg, rgba(5, 34, 69, .93), rgba(7, 95, 189, .80)), url"football-hero.jpeg") center / cover; padding: 22px; }
 .nav, .hero-grid, .section, footer { max-width: 1160px; margin: 0 auto; }
 .nav { display: flex; justify-content: space-between; align-items: center; padding-bottom: 56px; }
 .brand { display: flex; align-items: center; gap: 12px; color: white; text-decoration: none; font-weight: 900; letter-spacing: .03em; }
