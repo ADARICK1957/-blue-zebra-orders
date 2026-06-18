@@ -1,1 +1,172 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Blue Zebra Officials Prep Card</title>
+  <meta name="description" content="Order the Blue Zebra Football Officials Prep Card by Rick Hert." />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="hero">
+    <nav class="nav">
+      <div class="brand">
+        <span class="logo">BZ</span>
+        <span>Blue Zebra</span>
+      </div>
+      <a href="#order" class="button button-small">Order Cards</a>
+    </nav>
 
+    <section class="hero-content">
+      <div>
+        <p class="eyebrow">Football Officials Prep Card</p>
+        <h1>Be ready before the first whistle.</h1>
+        <p class="lede">
+          A practical sideline packing and preparation card for football officials,
+          assigners, registrars, and crews.
+        </p>
+        <div class="actions">
+          <a href="#order" class="button">Start an Order</a>
+          <a href="#pricing" class="button button-secondary">See Pricing</a>
+        </div>
+      </div>
+      <div class="card-preview">
+        <div class="card-top">BLUE ZEBRA</div>
+        <h2>Officials<br>Prep Card</h2>
+        <p>Pack. Prepare. Officiate.</p>
+        <span>Updated edition delivers by August 1, 2026</span>
+      </div>
+    </section>
+  </header>
+
+  <main>
+    <section class="section grid-3">
+      <article>
+        <h3>For assigners</h3>
+        <p>Give every official a simple checklist that helps reduce missed gear and game-day confusion.</p>
+      </article>
+      <article>
+        <h3>For crews</h3>
+        <p>A quick reference for equipment, uniform items, communication, and pregame readiness.</p>
+      </article>
+      <article>
+        <h3>For new officials</h3>
+        <p>A confidence-building card that helps rookies show up prepared and professional.</p>
+      </article>
+    </section>
+
+    <section id="pricing" class="section pricing">
+      <div>
+        <p class="eyebrow">Simple bulk pricing</p>
+        <h2>Order one card or outfit the whole crew.</h2>
+      </div>
+      <div class="price-table">
+        <div class="price-row">
+          <span>1–49 cards</span>
+          <strong>$9.95 each</strong>
+        </div>
+        <div class="price-row featured">
+          <span>50–99 cards</span>
+          <strong>$6.95 each</strong>
+        </div>
+        <div class="price-row">
+          <span>100+ cards</span>
+          <strong>$5.95 each</strong>
+        </div>
+      </div>
+      <p class="note">
+        Shipping and delivery details will be confirmed after your order request.
+        Payment accepted by Venmo or check. Credit card checkout can be added later with Square, Stripe, or PayPal.
+      </p>
+    </section>
+
+    <section id="order" class="section order-section">
+      <div>
+        <p class="eyebrow">Order request</p>
+        <h2>Send your order details</h2>
+        <p>
+          Fill this out and click “Prepare Email.” Your email app will open with the order details ready to send.
+          This keeps the first version simple and avoids monthly payment software fees.
+        </p>
+      </div>
+
+      <form id="orderForm" class="order-form">
+        <label>
+          Name
+          <input name="name" required placeholder="Your name" />
+        </label>
+
+        <label>
+          Organization / Association
+          <input name="organization" placeholder="Association, school, crew, or assigner group" />
+        </label>
+
+        <label>
+          Email
+          <input name="email" type="email" required placeholder="you@example.com" />
+        </label>
+
+        <label>
+          Phone
+          <input name="phone" placeholder="Optional" />
+        </label>
+
+        <label>
+          Quantity
+          <input name="quantity" id="quantity" type="number" min="1" required value="50" />
+        </label>
+
+        <label>
+          Payment preference
+          <select name="payment">
+            <option>Venmo</option>
+            <option>Check</option>
+            <option>Credit card if available</option>
+          </select>
+        </label>
+
+        <label class="wide">
+          Shipping address
+          <textarea name="address" rows="3" placeholder="Street, city, state, ZIP"></textarea>
+        </label>
+
+        <label class="wide">
+          Notes
+          <textarea name="notes" rows="3" placeholder="Anything else Rick should know?"></textarea>
+        </label>
+
+        <div class="estimate wide">
+          <span>Estimated card total:</span>
+          <strong id="estimate">$347.50</strong>
+          <small>Before shipping, if any.</small>
+        </div>
+
+        <button class="button wide" type="submit">Prepare Email Order</button>
+      </form>
+    </section>
+
+    <section class="section faq">
+      <h2>Questions</h2>
+      <details>
+        <summary>Is the sample card the final version?</summary>
+        <p>No. The enclosed first-edition sample has been updated. Final cards are planned for delivery by August 1, 2026.</p>
+      </details>
+      <details>
+        <summary>How do I pay?</summary>
+        <p>Venmo and check are accepted. Add your payment preference in the order form and Rick will confirm details.</p>
+      </details>
+      <details>
+        <summary>Can I order for a whole association?</summary>
+        <p>Yes. Bulk pricing starts at 50 cards, with the best price at 100 or more cards.</p>
+      </details>
+    </section>
+  </main>
+
+  <footer>
+    <p>Blue Zebra Officials Prep Card · Created by Rick Hert</p>
+    <p><a href="mailto:rick@olypen.com">rick@olypen.com</a></p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
