@@ -11,7 +11,6 @@
 * { box-sizing: border-box; }
 html { scroll-behavior: smooth; }
 body { margin: 0; font-family: Arial, Helvetica, sans-serif; color: var(--ink); background: var(--bg); line-height: 1.55; }
-img { max-width: 100%; }
 a { color: var(--blue); }
 .hero { color: black; background: linear-gradient(90deg, rgba(5, 34, 69, .93), rgba(7, 95, 189, .80)), url"football-hero.jpeg") center / cover; padding: 22px; }
 .nav, .hero-grid, .section, footer { max-width: 1160px; margin: 0 auto; }
@@ -20,11 +19,11 @@ a { color: var(--blue); }
 .brand img { width: 58px; height: 58px; object-fit: contain; background: white; border-radius: 999px; padding: 3px; }
 .hero-grid { display: grid; grid-template-columns: 1.15fr .85fr; gap: 42px; align-items: center; padding-bottom: 72px; }
 h1, h2, h3 { line-height: 1.05; }
-h1 { font-size: clamp(44px, 7vw, 78px); margin: 0 0 22px; max-width: 760px; }
+h1 {font-size: 4rem;line-height: 1.1;max-width: 800px;}
 h2 { font-size: clamp(30px, 4vw, 48px); margin: 0 0 18px; }
 p { font-size: 18px; }
 .lede { font-size: 23px; max-width: 690px; color: #eef7ff; }
-.created { color: #d9ecff; max-width: 680px; }
+.created { color: #333;font-weight:500;} max-width: 680px; }
 .eyebrow { text-transform: uppercase; letter-spacing: .14em; font-weight: 900; font-size: 13px; margin: 0 0 12px; color: #cbe6ff; }
 .eyebrow.dark { color: var(--blue-dark); }
 .actions { display: flex; gap: 14px; flex-wrap: wrap; margin-top: 28px; }
@@ -32,7 +31,7 @@ p { font-size: 18px; }
 .button:hover { background: var(--blue-dark); }
 .button-secondary { background: white; color: var(--blue-dark); }
 .button-small { background: white; color: var(--blue-dark); padding: 10px 16px; }
-.hero-card { background: rgba(255,255,255,.92); border: 8px solid var(--gold); border-radius: 32px; padding: 32px; box-shadow: 0 25px 90px rgba(0,0,0,.35); text-align: center; }
+.hero-card { background: rgba(255,255,255,.92); border: none; border-radius: 32px; padding: 32px; box-shadow: 0 25px 90px rgba(0,0,0,.35); text-align: center; }
 .hero-card img { max-height: 430px; object-fit: contain; }
 .section { padding: 68px 24px; }
 .intro { display: grid; grid-template-columns: .85fr 1.15fr; gap: 36px; align-items: start; }
